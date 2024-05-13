@@ -1,0 +1,22 @@
+{
+  "name": "symbol.initialize",
+  "description": "initialize pending objects",
+  "version": "0.1.0",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/types/index.d.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "fmt": "prettier -w ."
+  },
+  "keywords": [
+    "lifecycle"
+  ]
+}
