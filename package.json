@@ -1,5 +1,5 @@
 {
-  "name": "symbol.initialize",
+  "name": "symbol-initialize",
   "description": "initialize pending objects",
   "version": "0.1.0",
   "main": "lib/cjs/index.js",
@@ -14,6 +14,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "prepack": "make build",
     "fmt": "prettier -w ."
   },
   "keywords": [
