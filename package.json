@@ -1,5 +1,5 @@
 {
-  "name": "symbol-initialize",
+  "name": "@jondotsoy/symbol.initialize",
   "description": "initialize pending objects",
   "version": "0.1.0",
   "main": "lib/cjs/index.js",
@@ -17,6 +17,13 @@
     "prepack": "make build",
     "fmt": "prettier -w ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonDotsoy/symbol.initialize.git"
+  },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "lifecycle"
   ]
