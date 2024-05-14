@@ -25,7 +25,7 @@ const connection = await initialize(new MyConnection());
 ## Install
 
 ```shell
-npm i symbol.initialize
+npm i @jondotsoy/symbol.initialize
 ```
 
 ## Contributing Guide
